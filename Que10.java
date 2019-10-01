@@ -39,7 +39,7 @@ public class Que10 {
 
 
 		int sum = 0;
-		for(int i=1; i<=2000000; i++)
+		for(int i=3; i<=2000000; i=i+2)
 		{
 			if(isprime(i))
 			{
